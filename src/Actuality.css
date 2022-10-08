@@ -1,0 +1,41 @@
+h1{
+    text-align: center;
+}
+h2{
+    margin:0
+}
+.container{
+    max-width: 1250px;
+    margin: 0 auto;
+}
+.news{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+select{
+    border-radius: 8px;
+    height: 30px;
+}
+.filters{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.filter{
+    display: flex;
+    align-items: center;
+}
+.category-filter{
+    margin-right: 10px;
+}
+
+.news .post{
+    flex: 0 0 33.333333%;
+    margin: 20px 0;
+
+}
+.news .date,.news .content{margin: 0;}
+.news .desc{
+    padding-right: 10px;
+}
